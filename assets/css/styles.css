@@ -1,5 +1,5 @@
 /*=============== GOOGLE FONTS ===============*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Parisienne&display=swap');
 
 /*=============== VARIABLES CSS ===============*/
 :root {
@@ -26,8 +26,8 @@
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
-  --body-font: 'Poppins', sans-serif;
-  --h2-font-size: 1.25rem;
+  --body-font: 'Nanum Gothic', sans-serif;
+  --h2-font-size: 2rem;
   --h3-font-size: 1rem;
   --normal-font-size: .938rem;
   --small-font-size: .813rem;
@@ -62,6 +62,11 @@ body {
 h1, h2, h3 {
   color: var(--title-color);
   font-weight: 600;
+}
+
+h2 {
+  font-family: 'Parisienne', cursive; 
+  padding-bottom: 5px;
 }
 
 ul {

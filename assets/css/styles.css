@@ -27,7 +27,7 @@
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
   --body-font: 'Nanum Gothic', sans-serif;
-  --h2-font-size: 2rem;
+  --h2-font-size: 1.25rem;
   --h3-font-size: 1rem;
   --normal-font-size: .938rem;
   --small-font-size: .813rem;
